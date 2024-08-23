@@ -1,6 +1,6 @@
-package hw1;
+package Homework_1;
 // 請設計一支Java程式，計算200顆蛋共是幾打幾顆？(一打為12顆)
-public class hw1_2 {
+public class Homework1_2 {
 	
 	public static void main(String[] args) {
 		int totalEggs = 200; //
