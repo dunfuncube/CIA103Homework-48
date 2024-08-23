@@ -4,13 +4,21 @@ public class Homework2_4 {
 	
 	public static void main(String[] args) {
 		int i;
-		int sum = 0;
-		for(i = 0; i < 20; i++) {
-			if(i % 2 != 0) {
-				sum += i;
-				System.out.print(sum + " ");
-			}
+//		int sum = 0;
+//		// 計算奇數和
+//		for(i = 0; i < 20; i++) {
+//			if(i % 2 != 0) {
+//				sum += i;
+//				System.out.print(sum + " ");
+//			}
+//		}
+		
+		// 計算 1~10 的平方
+		for (i = 1; i <= 10; i++) {
+			int square = i * i;
+			System.out.print(square + " ");
 		}
+		
 	}
 
 }
